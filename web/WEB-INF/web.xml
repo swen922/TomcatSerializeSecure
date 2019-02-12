@@ -48,6 +48,17 @@
         <url-pattern>/readserauth</url-pattern>
     </servlet-mapping>
 
+    <!--- ReadWrapper -->
+    <servlet>
+        <servlet-name>readwrapper</servlet-name>
+        <servlet-class>app.ReadWrapper</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>readwrapper</servlet-name>
+        <url-pattern>/readwrapper</url-pattern>
+    </servlet-mapping>
+
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>tomcat9_Sec</web-resource-name>
